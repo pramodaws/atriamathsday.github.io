@@ -1,0 +1,26 @@
+body{
+   height: 90%;
+        background-attachment: fixed;
+       
+        background-size: cover;
+        background-blend-mode: lighten;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                  url("https://digiwiz.pythonanywhere.com/media/courses/flash_cards.jpg")
+      }
+      img {
+        opacity: 0.2;
+      }
+  h1{
+      position: relative;
+      font-style: oblique;
+      font-family: fantasy;
+  }
+
+  .container {
+    font-family: cursive;
+    color:black;    
+letter-spacing:2px;
+font-weight: 600; 
+font-style: italic,bold;
+text-shadow: black;
+  }
